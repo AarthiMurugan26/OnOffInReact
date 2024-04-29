@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.box {
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+.button{
+  padding: 20px;
+  
+}
